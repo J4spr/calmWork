@@ -1,11 +1,14 @@
 .nav {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     text-align: center;
-    font-size: large;
+    font-size: x-large;
+
 }
 
 .nav li {
-    display: flex;
+    display: inline;
     flex-direction: column;
     background-color: white;
     opacity: 75%;
