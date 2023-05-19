@@ -1,0 +1,12 @@
+.nav {
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+}
+
+.nav li {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 75%;
+}
