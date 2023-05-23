@@ -12,5 +12,5 @@ elements.forEach((element) => {
 });
 
 function changeBackground(type) {
-  document.body.style.backgroundImage = `url('../assets/img/${type}.gif')`;
+  document.body.style.backgroundImage = `url('../assets/gifs/${type}.gif')`;
 }
