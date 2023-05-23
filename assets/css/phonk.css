@@ -1,5 +1,19 @@
 body {
-    background-image: url(../images/drifting-car.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* background-image: url(../images/drifting-car.gif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-wrapper .hidden-iframe {
+  display: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
 }

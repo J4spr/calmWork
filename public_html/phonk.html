@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/phonk.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
+    <script src="../assets/js/main.js"></script>
     <title>Phonk</title>
 </head>
 <body>
     <div class="nav">
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./hiphop.html">Hiphop</a></li>
-            <li><a href="./lofi.html">Lo-Fi</a></li>
-            <li><a href="./ambient.html">Ambient</a></li>
-            <li><a href="./phonk.html">Phonk</a></li>
-            <li><a href="./about.html">About</a></li>
+            <!-- make a to button -->
+            <li><a href="">Home</a></li>
+            <li><a id="hiphop" class="changeGif" href="">Hiphop</a></li>
+            <li><a id="lofi" class="changeGif" href="">Lo-Fi</a></li>
+            <li><a id="ambient" class="changeGif" href="">Ambient</a></li>
+            <li><a id="phonk" class="changeGif" href="">Phonk</a></li>
+            <li><a href="">About</a></li>
         </ul>
+    </div>
+    <button onclick="toggleIframe()">Toggle media controls</button>
+    <div class="media-wrapper">
+        <iframe class="hidden-iframe" width="960" height="540" src="https://www.youtube.com/embed/videoseries?list=PLliiMqsVIF-OPMfR4mlwvdVLMp9ko0QKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </body>
 </html>
