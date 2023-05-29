@@ -4,6 +4,12 @@ body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+
+}
 
 /* other links you can use:  */
 /* -https://media.giphy.com/media/1RBTyJ0wspEllt3i2c/giphy.gif */

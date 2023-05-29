@@ -1,8 +1,9 @@
 body {
-  /* background-image: url(../images/drifting-car.gif); */
+  background-image: url(../gifs/lofi.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .media-wrapper {
   display: flex;
   justify-content: center;
@@ -16,4 +17,10 @@ body {
 button {
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: contain;
+  }
 }
