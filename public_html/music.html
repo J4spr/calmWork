@@ -24,13 +24,28 @@
         <li><button onclick="changeTheme('lofi')">Lo-Fi</button></li>
         <li><button onclick="changeTheme('ambient')">Ambient</button></li>
         <li><button onclick="changeTheme('phonk')">Phonk</button></li>
-        <li><button><a id="about" class="changeGif" href="about.html">About</a></button></li>
+        <li>
+          <button>
+            <a id="about" class="changeGif" href="about.html">About</a>
+          </button>
+        </li>
       </ul>
     </div>
-    <button onclick="toggleIframe()">Toggle media controls</button>
+    <button onclick="toggleVideo()">Toggle Video</button>
     <div class="media-wrapper">
       <iframe
-        class="hidden-iframe" width="560" height="315" src="" title="YouTube video player" frameborder="0"
+        id="youtube-video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        class="hidden-iframe"
+        width="560"
+        height="315"
+        src=""
+        title="YouTube video player"
+        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
