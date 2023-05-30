@@ -1,5 +1,5 @@
-function toggleIframe(type) {
-  const iframe = document.querySelector(".hidden-iframe");
+function toggleVideo() {
+  const iframe = document.getElementById("youtube-video");
   iframe.style.display = iframe.style.display === "none" ? "block" : "none";
 }
 
