@@ -5,39 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/nav.css" />
-    <!-- <link rel="stylesheet" href="../assets/css/music.css"> -->
+    <link rel="stylesheet" href="../assets/css/about.css" />
+    <script src="../assets/js/main.js"></script>
     <link
-      rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon"
+      rel="shortcut icon"
+      href="../assets/images/favicon.ico"
+      type="image/x-icon"
     />
     <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon" />
-    <title>About</title>
+    <title>Lofi bar-About</title>
   </head>
   <body>
     <div class="nav">
       <ul>
         <!-- make a to button -->
         <li>
-          <button><a href="index.html">Home</a></button>
+          <button onclick="changeTheme('index')">Home</button>
         </li>
         <li>
-          <button>
-            <a id="hiphop" class="changeGif" href="hiphop.html">Hiphop</a>
-          </button>
+          <button onclick="changeTheme('hiphop')">hiphop</button>
         </li>
         <li>
-          <button>
-            <a id="lofi" class="changeGif" href="lofi.html">Lo-Fi</a>
-          </button>
+          <button onclick="changeTheme('lofi')">Lo-Fi</button>
         </li>
         <li>
-          <button>
-            <a id="ambient" class="changeGif" href="ambient.html">Ambient</a>
-          </button>
+          <button onclick="changeTheme('ambient')">Ambient</button>
         </li>
         <li>
-          <button>
-            <a id="phonk" class="changeGif" href="phonk.html">Phonk</a>
-          </button>
+          <button onclick="changeTheme('phonk')">Phonk</button>
         </li>
         <li>
           <button>
@@ -46,6 +41,13 @@
         </li>
       </ul>
     </div>
-    <div class="content-wrapper"></div>
+    <div class="content-wrapper">
+      <p>
+        Lofi bar is based on
+        <a target="_blank" href="https://lofi.cafe">lofi cafe</a>
+        It is a website that plays lofi music so that you can study or relax.
+        if you want to support me you can buy me a coffee 
+      </p>
+    </div>
   </body>
 </html>
