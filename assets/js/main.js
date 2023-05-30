@@ -5,19 +5,20 @@ function toggleVideo() {
 
 // const elements = document.querySelectorAll(".changeGif");
 // elements.forEach((element) => {
-//     element.addEventListener("click", (e) => {
-//         e.preventDefault();
-//         changeBackground(element.id);
-//     });
-// });
-
-function changeTheme(type) {
-  document.body.style.backgroundImage = `url('../assets/gifs/${type}.gif')`;
+  //     element.addEventListener("click", (e) => {
+    //         e.preventDefault();
+    //         changeBackground(element.id);
+    //     });
+    // });
+    
+    function changeTheme(type) {
+      document.body.style.backgroundImage = `url('../assets/gifs/${type}.gif')`;
+    const iframe = document.getElementById("youtube-video");
   switch (type) {
     case "hiphop":
       myIframe.setAttribute(
         "src",
-        "https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL_UCDs2ps_71f_WxFiOGE6dGUqpq9hkeA"
+        "https://www.youtube.com/embed/videoseries?list=PL_UCDs2ps_71f_WxFiOGE6dGUqpq9hkeA"
       );
       break;
     case "ambient":
