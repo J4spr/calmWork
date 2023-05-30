@@ -1,16 +1,12 @@
 body {
-    background-image: url("https://media.giphy.com/media/fniVO5yA3ddAq6A19V/giphy.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("https://media.giphy.com/media/fniVO5yA3ddAq6A19V/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
   body {
     background-image: none;
+    background-color: #f2f2f2;
   }
-
 }
-
-/* other links you can use:  */
-/* -https://media.giphy.com/media/1RBTyJ0wspEllt3i2c/giphy.gif */
-/* -https://tenor.com/bLlQv.gif */

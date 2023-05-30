@@ -1,8 +1,29 @@
+/* Set a background color and text color for all elements */
+/* Uncomment to apply to all elements */
+/*
 * {
-    background-color: #262839;
-    color: #fff;
-}
+*     background-color: #262839;
+*     color: #fff;
+* }
+*/
 
+/* Remove the underline from all links */
 a {
     text-decoration: none;
+}
+
+/* CSS Styles for inline elements */
+/* Make text italic */
+em {
+    font-style: italic;
+}
+
+/* Make text bold */
+strong {
+    font-weight: bold;
+}
+
+/* Add an underline to text */
+u {
+    text-decoration: underline;
 }

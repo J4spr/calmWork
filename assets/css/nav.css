@@ -1,15 +1,27 @@
 .nav {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    text-align: center;
-    font-size: x-large;
-
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  font-size: x-large;
 }
 
 .nav li {
-    display: inline;
-    flex-direction: column;
-    background-color: white;
-    opacity: 75%;
+  display: inline;
+  flex-direction: column;
+  background-color: white;
+  opacity: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav li {
+    display: block;
+    margin: 10px;
+  }
 }

@@ -29,10 +29,7 @@ function changeTheme(type) {
       );
       break;
     case "ambient":
-      iframe.setAttribute(
-        "src",
-        "https://www.youtube.com/embed/videoseries?list=PL290F940EDA519EB6"
-      );
+      iframe.setAttribute("src", "https://www.youtube.com/embed/jE30dFzT6FI");
       break;
     case "phonk":
       iframe.setAttribute(
