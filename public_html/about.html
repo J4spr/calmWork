@@ -18,36 +18,34 @@
   <body>
     <div class="nav">
       <ul>
-        <!-- make a to button -->
-        <li>
-          <button onclick="changeTheme('index')">Home</button>
-        </li>
-        <li>
-          <button onclick="changeTheme('hiphop')">hiphop</button>
-        </li>
-        <li>
-          <button onclick="changeTheme('lofi')">Lo-Fi</button>
-        </li>
-        <li>
-          <button onclick="changeTheme('ambient')">Ambient</button>
-        </li>
-        <li>
-          <button onclick="changeTheme('phonk')">Phonk</button>
-        </li>
-        <li>
-          <button>
-            <a id="about" class="changeGif" href="about.html">About</a>
-          </button>
-        </li>
-      </ul>
+            <!-- make a to button -->
+            <li><button><a href="index.html">Home</a></button></li>
+            <li><button><a id="hiphop" href="music.html">Music</a></button></li>
+            <li><button><a id="about" href="about.html">About</a></button></li>
+        </ul>
     </div>
     <div class="content-wrapper">
-      <h2>Welcome to <em>Lofi.Cafe</em></h2>
-      <p><strong>Lofi.Cafe</strong> is a unique online platform that brings together a collection of relaxing lo-fi music tracks from various genres. Whether you're studying, working, or simply looking for a calming background ambiance, <strong>Lofi.Cafe</strong> has got you covered.</p>
+      <h2>Welcome to <em>Lofi.bar</em></h2>
+      <p><strong>Lofi.Bar</strong> is a unique online platform that brings together a collection of relaxing lo-fi music tracks from various genres. Whether you're studying, working, or simply looking for a calming background ambiance, <strong>Lofi.bar</strong> has got you covered.</p>
       <p>Our mission is to curate a diverse range of lo-fi music that caters to different moods and preferences. We believe in the power of music to create a soothing atmosphere and enhance your productivity and focus.</p>
-      <p>At <strong>Lofi.Cafe</strong>, you can explore different genres of lo-fi music, from mellow beats to jazz-infused melodies. Simply choose your preferred genre from our <u>Genres</u></a> page and immerse yourself in a world of tranquility.</p>
-      <p>Join our community of music lovers and enjoy the seamless experience of discovering and listening to your favorite lo-fi tracks. Feel free to reach out to us with any feedback or suggestions through our<u>Contact</u></a> page.</p>
-      </p>
+      <p>At <strong>Lofi.bar</strong>, you can explore different genres of lo-fi music, from mellow beats to jazz-infused melodies. Simply choose your preferred genre from our <u>Genres</u> page and immerse yourself in a world of tranquility.</p>
+      <p>Join our community of music lovers and enjoy the seamless experience of discovering and listening to your favorite lo-fi tracks. Feel free to reach out to us with any feedback or suggestions through our<u>Contact</u> page.</p>
+      
+      <div class="form-wrapper"> 
+        <form>
+          <p>Thank you for visiting our site!</p>
+          <p>Leave your credentials here for receiving updates!</p>
+          <div class="input-wrapper">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+          </div>
+          <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email..">
+          </div>
+          <input type="submit" value="Enter">
+        </form>
+      </div>
     </div>
   </body>
 </html>
