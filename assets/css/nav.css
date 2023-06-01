@@ -4,12 +4,20 @@
   list-style-type: none;
   text-align: center;
   font-size: x-large;
+  width: 50%;
+  margin: auto auto;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav li {
   display: inline;
   flex-direction: column;
-  background-color: white;
   opacity: 75%;
 }
 
